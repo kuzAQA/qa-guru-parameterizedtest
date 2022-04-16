@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Feature("Тесты для домашки по Allure")
-public class FirstTest extends BaseTest {
+public class VkusvillTests extends BaseTest {
     SelenideElement headerMenu = $(byAttribute("data-place", "topMenu"));
     SelenideElement breadcrumbs = $("#js-nav-chain");
 
