@@ -9,6 +9,7 @@ import org.junit.jupiter.api.BeforeEach;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class BaseTest {
+    Utils util = new Utils();
     @BeforeAll
     static void configurationTests() {
         Configuration.holdBrowserOpen = false; //true = не закрывать браузер после тестов
